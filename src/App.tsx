@@ -66,8 +66,8 @@ export default function App() {
     <div className="app-shell">
       <aside className={`sidebar ${mobileOpen ? "sidebar-open" : ""}`}>
         <div className="brand">
-          <div className="brand-mark"><Icon name="spark" size={22} /></div>
-          <div><strong>Nodo</strong><span>Semillero de investigación</span></div>
+          <div className="brand-mark"><img src="/logo-afinlab-hoja.jpg" alt="Logo AFINLAB" /></div>
+          <div><strong>AFINLAB</strong><span>Semillero de investigación</span></div> 
           <button className="icon-button close-menu" onClick={() => setMobileOpen(false)} aria-label="Cerrar menú"><Icon name="close" /></button>
         </div>
 
